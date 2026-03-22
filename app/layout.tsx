@@ -2,13 +2,13 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Local Leads SaaS',
-  description: 'Plataforma SaaS per captar i gestionar leads per negocis locals.'
+  title: 'SafeWave Demo',
+  description: 'SafeWave is a mobile-first anti-bullying school safety app connected to a smart wristband.'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ca">
+    <html lang="en">
       <body>{children}</body>
     </html>
   );
